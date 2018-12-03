@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
   
     font-size: 1.2rem;
     /* color: #0f2862; */
@@ -134,12 +133,13 @@ h3, h4, h5 {
     padding-bottom: 12px;
 }
 
-.login-wrapper{
-   display: flex;
-   flex-direction:  column;
-   height: 100vh;
-   justify-content: flex-end;
+.login-wrapper {
+    display: block;
+    /* flex-direction: column; */
+    height: 100%;
+    /* justify-content: flex-end; */
 }
+
 
 .login-area{
     width: 100%;
@@ -186,7 +186,7 @@ h3, h4, h5 {
 .reg-container{
     position: relative;
     margin-top: 4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: #444;
    /** margin-top: 0;   for mobile*/
 }
@@ -248,7 +248,7 @@ h3, h4, h5 {
     padding: 0;
     border-radius: 10px;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     margin-bottom: .5rem;
 }
 
@@ -307,7 +307,7 @@ h3, h4, h5 {
    padding: 10px;
    font-weight: lighter;
    font-size: 1rem;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
    -webkit-transition: all   .3s;
    -moz-transition: all   .3s;
    transition: all   .3s;
@@ -465,7 +465,15 @@ button.owl-dot {
 ----------------------------------------------------- */
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-height: 520px) { 
+    .login-wrapper{
+        display: flex;
+        flex-direction:  column;
+        height: 100vh;
+        justify-content: flex-end;
+    
+    }
+ }
 
 
 /*  Medium devices (tablets, 768px and up) */
