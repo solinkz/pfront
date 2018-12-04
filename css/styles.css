@@ -136,7 +136,7 @@ h3, h4, h5 {
 .login-wrapper {
     display: block;
     /* flex-direction: column; */
-    height: 100%;
+    height: 10;
     /* justify-content: flex-end; */
 }
 
@@ -151,7 +151,7 @@ h3, h4, h5 {
 .login-area .btn{
     background-color: rgba(231, 231, 231, 0.274);
     color: #fff;
-    font-weight: 700;
+    font-weight: lighter;
     font-size: .9rem;
     text-align: center;
     padding: .8rem 1rem;
@@ -166,7 +166,7 @@ h3, h4, h5 {
 .login-area .btn:hover{
     background-color: #fff;
     box-shadow: 0 8px 10px rgba(0,0,0, .13896);
-    color: #ff9100
+    color: #ff9100;
 }
 
 .login-area .agr{
