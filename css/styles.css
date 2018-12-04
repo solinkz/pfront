@@ -146,7 +146,7 @@ h3, h4, h5 {
 
 .login-area{
     width: 100%;
-    margin: 1.2rem auto;
+    margin: 1.2rem auto 0;
     padding: .5rem 1.5rem;
     text-align: center;
 }
@@ -485,11 +485,11 @@ button.owl-dot {
 ----------------------------------------------------- */
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-height: 620px) { 
+@media (min-height: 610px) { 
     .login-wrapper{
         display: flex;
         flex-direction:  column;
-        height: 90vh;
+        height: 95vh;
         justify-content: flex-end;
     
     }
