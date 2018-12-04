@@ -211,8 +211,8 @@ h3, h4, h5 {
 }
 
 .rf-manual input:focus, .rf-manual select:focus{
-    border-color:  #460423;
-    outline: none;
+    border-color:none;
+  outline: transparent;
 }
 .rf-manual .form-control{
     padding: 1rem .75rem;
