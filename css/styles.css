@@ -139,9 +139,7 @@ h3, h4, h5 {
 
 .login-wrapper {
     display: block;
-    /* flex-direction: column; */
-    height: 10;
-    /* justify-content: flex-end; */
+  
 }
 
 
