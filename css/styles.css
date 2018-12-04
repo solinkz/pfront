@@ -485,14 +485,14 @@ button.owl-dot {
 ----------------------------------------------------- */
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-height: 520px) { 
-    /* .login-wrapper{
+@media (min-height: 620px) { 
+    .login-wrapper{
         display: flex;
         flex-direction:  column;
-        height: 100vh;
+        height: 90vh;
         justify-content: flex-end;
     
-    } */
+    }
  }
 
 
