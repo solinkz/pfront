@@ -2,9 +2,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-  
+    background-color: #f4f6f8;
     font-size: 1.2rem;
-    /* color: #0f2862; */
+    color: #0f2862;
 }
 
 p {
@@ -36,10 +36,10 @@ i, span {
     display: flex;
     position: relative;
     top:0;
-    background: #ff9100;
+    /* background: #ff9100; */
 }
 .wrapper.reg {
-    background: #ffffff;
+    background: #f4f6f8;
 }
 .wrapper.forgot {
     background: transparent;
@@ -95,7 +95,7 @@ h3, h4, h5 {
 }
 .match-box  button{
  
-    background: #ff8800;
+    background: #0f2862;
     color: #fff;
     border-radius: 50px;
     margin-top: 4rem;
@@ -126,12 +126,12 @@ h3, h4, h5 {
 
 /* LOGIN */
 .intro-msg{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .intro-msg .im-txt{
     font-size: 1rem;
-    color: rgb(255, 255, 255);
+    color: #0f2862;
     text-align: center;
     padding-bottom: 12px;
 }
@@ -152,7 +152,7 @@ h3, h4, h5 {
 }
 
 .login-area .btn{
-    background-color: rgba(231, 231, 231, 0.274);
+    background-color: rgba(0, 0, 0, 0.192);
     color: #fff;
     font-weight: lighter;
     font-size: .9rem;
@@ -169,11 +169,11 @@ h3, h4, h5 {
 .login-area .btn:hover{
     background-color: #fff;
     box-shadow: 0 8px 10px rgba(0,0,0, .13896);
-    color: #ff9100;
+    color: #0f2862;
 }
 
 .login-area .agr{
-    color: #fff;
+    color: #0f2862;
     font-size: .7rem;
 }
 
@@ -233,7 +233,7 @@ h3, h4, h5 {
 .or{
     position: absolute;
     display: inline-block;
-    background-color: #fff;
+    background-color: #f4f6f8;
     padding: 10px 20px;
     color: #414141;
     right: 43%;
@@ -243,7 +243,10 @@ h3, h4, h5 {
 .rf-social{
     padding: 3rem .5rem;
 }
-.rf-social .social-wrap{
+.lg-social .social-wrap{
+    border-radius: 0 !important;
+}
+.rf-social .social-wrap , .lg-social .social-wrap{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -262,12 +265,26 @@ h3, h4, h5 {
     padding: .79rem;
     border-radius: 10px 0 0 10px;
 }
+.lg-social .social-wrap .icon{
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: .5rem;
+    border-radius: 0;
+
+}
 
 .social-wrap .social-ht{
     /* width: 85%; */
     padding: .8rem;
     padding-top: .96rem;
     font-size: .9rem;
+    vertical-align: middle;
+}
+.lg-social .social-wrap .social-ht{
+    /* width: 85%; */
+    padding: .8rem;
+    padding-top: .96rem;
+    font-size: .8rem;
     vertical-align: middle;
 }
 
@@ -305,7 +322,7 @@ h3, h4, h5 {
 
 .call-to-action .action .action-text{
 
-   color: #fff;
+   color: #0f2862;
    display: inline-block;
    padding: 10px;
    font-weight: lighter;
@@ -338,7 +355,7 @@ h3, h4, h5 {
     text-align: center !important;
 }
 button.owl-dot {
-    background-color: rgba(255, 255, 255, 0.308) !important;
+    background-color: rgba(0, 0, 0, 0.308) !important;
     color: inherit;
     width: 10px !important;
     height: 10px !important;
@@ -346,7 +363,7 @@ button.owl-dot {
     margin : 0 3px !important;
 }
 .owl-dots  .active{
-    background-color: #fff !important;
+    background-color: #0f2862 !important;
 }
 
 
@@ -367,7 +384,7 @@ button.owl-dot {
     color: #67e003;
 }
 .text-orange{
-    color: #ff9100;
+    color: #0f2862;
 }
 
 
@@ -469,13 +486,13 @@ button.owl-dot {
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-height: 520px) { 
-    .login-wrapper{
+    /* .login-wrapper{
         display: flex;
         flex-direction:  column;
         height: 100vh;
         justify-content: flex-end;
     
-    }
+    } */
  }
 
 
