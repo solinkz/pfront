@@ -95,8 +95,8 @@ h3, h4, h5 {
 }
 .match-box  button{
  
-    background: #0f2862;
-    color: #fff;
+    background:#fff ;
+    color:#0f2862 ;
     border-radius: 50px;
     margin-top: 4rem;
 
@@ -147,7 +147,7 @@ h3, h4, h5 {
 .login-area{
     width: 100%;
     /* margin: .8rem auto 0; */
-    padding: .5rem;
+    padding: 0 .5rem;
     text-align: center;
 }
 
@@ -268,8 +268,9 @@ h3, h4, h5 {
 .lg-social .social-wrap .icon{
     width: 15%;
     background-color: rgba(0, 0, 0, 0.212);
-    padding: .5rem;
+    padding: 7px;
     border-radius: 0;
+    font-size: 14px;
 
 }
 
@@ -282,9 +283,9 @@ h3, h4, h5 {
 }
 .lg-social .social-wrap .social-ht{
     /* width: 85%; */
-    padding: .8rem;
-    padding-top: .96rem;
-    font-size: .8rem;
+    padding: 7px;
+    /* padding-top: .96rem; */
+    font-size: 12px;
     vertical-align: middle;
 }
 
