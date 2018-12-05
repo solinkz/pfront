@@ -220,11 +220,11 @@ h3, h4, h5 {
 }
 
 .rf-manual button{
-    background-color:  #9c108a;
+    background-color: #0f2862 ;
     color: #fff;
 }
 .rf-manual button:hover{
-    background-color:  #55074b;
+    background-color:  #14347a;
 }
 
 .or{
@@ -305,7 +305,7 @@ h3, h4, h5 {
 
 .pg-init{
     max-width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -483,11 +483,11 @@ button.owl-dot {
 ----------------------------------------------------- */
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-height: 610px) { 
+@media (min-height: 500px) { 
     .login-wrapper{
         display: flex;
         flex-direction:  column;
-        height: 95vh;
+        height: 85vh;
         justify-content: flex-end;
     
     }
@@ -522,7 +522,7 @@ button.owl-dot {
     }
     .reg-container{
         position: relative;
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
  }
