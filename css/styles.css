@@ -198,7 +198,7 @@ h3, h4, h5 {
 }
 .rf-manual label{
     color: #414141;
-    font-size: .9rem;
+    font-size: 14px;
 }
 
 .rf-manual input{
@@ -240,9 +240,7 @@ h3, h4, h5 {
 .rf-social{
     padding: 3rem .5rem;
 }
-.lg-social .social-wrap{
-    border-radius: 0 !important;
-}
+
 .rf-social .social-wrap , .lg-social .social-wrap{
     display: flex;
     flex-direction: row;
@@ -250,6 +248,7 @@ h3, h4, h5 {
     width: 100%;
     padding: 0;
     color: #fff;
+    border-radius: 10px;
     /* font-family: Arial, Helvetica, sans-serif; */
     margin-bottom: .5rem;
 }
@@ -259,12 +258,13 @@ h3, h4, h5 {
     width: 15%;
     background-color: rgba(0, 0, 0, 0.212);
     padding: .79rem;
+    border-radius: 10px 0 0 10px;
 }
 .lg-social .social-wrap .icon{
     width: 15%;
     background-color: rgba(0, 0, 0, 0.212);
     padding: 7px;
-    border-radius: 0;
+    border-radius: 10px 0 0 10px;
     font-size: 14px;
 
 }
