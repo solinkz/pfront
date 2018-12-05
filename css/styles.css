@@ -200,6 +200,9 @@ h3, h4, h5 {
     color: #414141;
     font-size: 14px;
 }
+.rf-manual .form-group{
+    margin-bottom: .2rem;
+}
 
 .rf-manual input{
     border-radius: 10px;
@@ -507,7 +510,7 @@ button.owl-dot {
         bottom: 50%;
     }
     .rf-social{
-        padding: 10rem .5rem;
+        padding: 6rem .5rem;
     }
     .social-wrap .icon{
         width: 20%;
