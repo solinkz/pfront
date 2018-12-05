@@ -181,7 +181,7 @@ h3, h4, h5 {
 }
 .login-area .agr a:hover{
     text-decoration: underline;
-    color: #fff;
+    /* color: #fff; */
 }
 
 /* REGISTRATION */
@@ -523,6 +523,19 @@ button.owl-dot {
     .reg-container{
         position: relative;
         margin-top: 2rem;
+    }
+    .lg-social .social-wrap .icon{
+   
+         padding: 1rem;
+   
+
+    }
+
+  
+    .lg-social .social-wrap .social-ht{
+      
+        padding: 1rem;
+      
     }
 
  }
