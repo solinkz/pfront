@@ -215,7 +215,7 @@ h3, h4, h5 {
   outline: transparent;
 }
 .rf-manual .form-control{
-    padding: 1rem .75rem;
+    /* padding: 1rem .75rem; */
     font-size: .8rem;
 }
 
@@ -249,7 +249,6 @@ h3, h4, h5 {
     flex-wrap: wrap;
     width: 100%;
     padding: 0;
-    border-radius: 10px;
     color: #fff;
     /* font-family: Arial, Helvetica, sans-serif; */
     margin-bottom: .5rem;
@@ -260,7 +259,6 @@ h3, h4, h5 {
     width: 15%;
     background-color: rgba(0, 0, 0, 0.212);
     padding: .79rem;
-    border-radius: 10px 0 0 10px;
 }
 .lg-social .social-wrap .icon{
     width: 15%;
